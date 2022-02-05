@@ -7,6 +7,7 @@
      }
     .head h1, h3 {
                font-size: 24px;
+               
     }
     .news {
         flex-direction: column;
