@@ -1,10 +1,10 @@
 body {
     padding: 20px;
 }
-.container {
+.shef {
     background-color: beige;
     padding: 20px;
-}
+    }
 .row {
     justify-content: space-evenly;
 }
@@ -19,9 +19,26 @@ body {
     height: 70px;
     border-radius: 50%;
 }
-.head-title h1 {
-    font-size: 58px;
+
+.head {
+    display: flex;
+    align-items: center;
+  }
+
+.head-title {
+    margin: 20px;
+    text-align: center;
+}
+.head-title h1, h3 {
+    font-size: 38px;
     font-family: 'Permanent Marker', cursive;
+}
+.head-title img {
+    width: 250px;
+    border-radius: 40%;
+}
+.head-title-h1 {
+    margin: 20px;
 }
 .navbar-text {
     font-size: 16px;
@@ -37,26 +54,12 @@ body {
     border-radius: 20px;
    }
 
-.head {
-       background-image: url("../images/22728870_1946221602368362_1845587053217905275_n.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 300px;
-}
 .head-icon {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-.head-title {
-
-    text-align: center;
-}
-.head h1, h3 {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    }
 
 .head-fon {
     width: 700px;
@@ -155,4 +158,36 @@ ul {
 }
 .cours {
     margin: 30px;
+}
+.head-one {
+    display: flex;
+}
+.head-two {
+    width: 100%;
+    margin: 20px;
+    border-left: 2px;
+}
+.news-ugkc {
+   background-color: #e0e0e0;
+    margin: 10px;
+}
+ li {
+    list-style: none;
+}
+.footer {
+    background: cornflowerblue;
+    height: 300px;
+    margin-top: 20px;
+}
+.lh {
+    list-style: none;
+margin: 0;
+padding: 0;
+color: #258;
+font-family: Cuprum,Arial,sans-serif;
+display: block;
+padding-bottom: 5px;
+margin-bottom: 5px;
+font-size: 22px;
+line-height: 24px;
 }

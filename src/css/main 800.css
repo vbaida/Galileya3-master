@@ -1,15 +1,27 @@
-@media screen and (max-width: 800px) {
-    .head-icon {
-       display: none;
+@media screen and (max-width: 992px) {
+   .head-one {
+       flex-direction: column;
+   }
+    .divcours {
+        flex-direction: column;
+    }
+    .head-two {
+        margin: 0;
     }
     .head {
-         flex-direction: column;
-     }
-    .head h1, h3 {
-               font-size: 24px;
-               
-    }
-    .news {
         flex-direction: column;
+    }
+    .head img {
+        width: 100%;
+    }
+    .head-title img {
+        width: 100px;
+            }
+    .head-title-h1 {
+        margin: 0;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 20px;
     }
 }
