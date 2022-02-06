@@ -143,9 +143,6 @@ ul {
     box-shadow: inset 0 0 0 3px #3a7999;
 }
 
-.tabl {
-    border-block: black;
-}
 .news {
     margin: 20px;
 }
@@ -158,6 +155,12 @@ ul {
 }
 .cours {
     margin: 30px;
+    background: lime;
+    flex-direction: column;
+    align-items: center;
+   }
+.tabl {
+    width: 192px;
 }
 .head-one {
     display: flex;
@@ -167,17 +170,35 @@ ul {
     margin: 20px;
     border-left: 2px;
 }
-.news-ugkc {
+.ugkc {
    background-color: #e0e0e0;
     margin: 10px;
+}
+.news-ugkc {
+    line-height: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+.offs {
+
+text-align: left;
+font-size: 11px;
+line-height: 14px;
+margin: 10px;
+padding: 0;
+color: #258;
 }
  li {
     list-style: none;
 }
+
 .footer {
-    background: cornflowerblue;
-    height: 300px;
+    height: 150px;
     margin-top: 20px;
+    justify-content: space-evenly;
+}
+.kontakt {
+    margin: 0;
 }
 .lh {
     list-style: none;
