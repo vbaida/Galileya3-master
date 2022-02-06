@@ -11,10 +11,10 @@
     .head {
         flex-direction: column;
     }
-    .head img {
+    .head-img {
         width: 100%;
     }
-    .head-title img {
+    .head-title-img {
         width: 100px;
             }
     .head-title-h1 {

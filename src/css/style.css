@@ -23,17 +23,20 @@ body {
 .head {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
   }
-
+.head-photo {
+    width: 25%;
+}
 .head-title {
     margin: 20px;
     text-align: center;
 }
 .head-title h1, h3 {
-    font-size: 38px;
+    font-size: 28px;
     font-family: 'Permanent Marker', cursive;
 }
-.head-title img {
+.head-title-img {
     width: 250px;
     border-radius: 40%;
 }
