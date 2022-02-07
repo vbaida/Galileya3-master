@@ -24,4 +24,7 @@
     h1 {
         font-size: 20px;
     }
+    .icon-text {
+        display: none;
+    }
 }
