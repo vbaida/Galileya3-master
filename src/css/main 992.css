@@ -27,4 +27,10 @@
     .icon-text {
         display: none;
     }
+    .footer {
+        flex-direction: column;
+    }
+    .head-bank {
+flex-direction: column;
+    }
 }

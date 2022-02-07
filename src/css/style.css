@@ -195,13 +195,11 @@ color: #258;
 }
 
 .footer {
-    height: 150px;
+    height: 100%;
     margin-top: 20px;
     justify-content: space-evenly;
 }
-.kontakt {
-    margin: 0;
-}
+
 .lh {
     list-style: none;
 margin: 0;
