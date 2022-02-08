@@ -1,0 +1,6 @@
+@media screen and (max-width: 576px) {
+    .info-1 {
+        flex-direction: column;
+    }
+
+}

@@ -30,7 +30,6 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 .head-title-img {
-
     border-radius: 40%;
 }
 .head-title-h1 {
@@ -110,6 +109,15 @@ ul {
 .info {
       text-align: center;
     font-family: 'Fira Sans', sans-serif;
+    padding: 20px;
+}
+.info-1 {
+    text-align: start;
+    padding-top: 20px;
+    align-items: center;
+}
+.info-1 img {
+    width: 200px;
 }
 
 .brat, .kozak, .broudi {
@@ -154,7 +162,7 @@ ul {
 .divcours {
     display: flex;
     justify-content: space-around;
-}
+    }
 .cours {
     margin: 30px;
     background: lime;
@@ -174,15 +182,18 @@ ul {
 }
 .ugkc {
    background-color: #e0e0e0;
-    margin: 10px;
+   padding: 10px;
+    text-align: center;
     }
 .news-ugkc {
     line-height: 14px;
     color: #777;
     margin-top: 20px;
 }
+.ugkc-1 img {
+    width: 300px;
+}
 .offs {
-
 text-align: left;
 font-size: 11px;
 line-height: 14px;
@@ -198,6 +209,10 @@ color: #258;
     height: 100%;
     margin-top: 20px;
     justify-content: space-evenly;
+}
+.kontakt {
+    margin: 0;
+    font-size: 12px;
 }
 
 .lh {
