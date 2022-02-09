@@ -2,5 +2,7 @@
     .info-1 {
         flex-direction: column;
     }
-
+.ugkc-1 img {
+    width: 100%;
+}
 }
