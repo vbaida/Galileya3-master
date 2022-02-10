@@ -33,4 +33,16 @@
     .head-bank {
 flex-direction: column;
     }
+    .home {
+        flex-direction: column;
+    }
+    .home-2 {
+        flex-direction: column-reverse;
+    }
+    .home-text p {
+        font-size: 12px;
+    }
+    .col {
+        font-size: 9px;
+    }
 }
