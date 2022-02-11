@@ -45,4 +45,15 @@ flex-direction: column;
     .col {
         font-size: 9px;
     }
+    .idv h2 {
+       font-size: 12px;
+    }
+    .wrapper1 {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns:  1fr 1fr;
+
+    }
+    .wrapper1 li {
+        font-size: 9px;
+    }
 }
