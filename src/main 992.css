@@ -56,4 +56,16 @@ flex-direction: column;
     .wrapper1 li {
         font-size: 9px;
     }
+    .newlife-img {
+               top: -140px;
+    }
+    .yakiv-text {
+        top: 20px;
+    }
+    .yakiv-data {
+        top: 130px;
+    }
+    .news {
+        flex-direction: column;
+    }
 }

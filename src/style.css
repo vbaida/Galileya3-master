@@ -73,6 +73,11 @@ body {
 .head-news {
     text-align: center;
 }
+.head-news-all {
+    display: flex;
+    flex-direction: column;
+}
+
 .social-icons {
     display: flex;
     list-style: none;
@@ -152,9 +157,6 @@ ul {
     box-shadow: inset 0 0 0 3px #3a7999;
 }
 
-.news {
-    margin: 20px;
-}
 .line:hover {
     color: limegreen;
 }
@@ -170,7 +172,7 @@ ul {
     box-shadow: white;
    }
 .tabl {
-    width: 192px;
+    width: 540px;
 }
 .head-one {
     display: flex;
@@ -263,6 +265,75 @@ font-size: 20px;
     display: grid;
     grid-template-rows: repeat(1, auto);
     grid-template-columns: repeat(5, 1fr);
+}
+
+.newlife {
+    display: flex;
+       }
+
+.newlife-img {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: -160px;
+
+}
+.yakiv {
+    text-align: center;
+    height: 440px;
+    width: 325px;
+}
+.yakiv-text {
+    position: relative;
+    z-index: 1;
+    }
+.yakiv-text h4 {
+    background-color: red;
+    color: white;
+}
+.yakiv-text h1 {
+    color: red;
+}
+.yakiv-data {
+    position: relative;
+    z-index: 1;
+    background: red;
+    color: white;
+    top: 100px;
+    width: 154px;
+    left: 132px;
+}
+.yakiv-text h1 {
+    font-size: 40px;
+}
+.king {
+    color: red;
+    font-size: 35px;
+}
+.btn-news-cours {
+
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.btn-news-cours:hover {background-color: #3e8e41}
+
+.btn-news-cours:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-news {
+    display: flex;
 }
 
 

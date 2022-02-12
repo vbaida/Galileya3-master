@@ -1,0 +1,1 @@
+document.querySelector(.btn-news-cours).onclick() =
