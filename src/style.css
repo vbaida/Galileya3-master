@@ -1,9 +1,19 @@
 body {
-    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    width: 100%;
+    min-height: 100vh;
+    background: #b3d4fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container {
     background-color: beige;
-  }
+    width: 100%;
+    padding: 0 20px;
+}
 
 .row {
     justify-content: space-evenly;
@@ -45,6 +55,12 @@ body {
 .navbar-nav {
     align-items: center;
     justify-content: space-between;
+}
+.navbar {
+    flex-direction: column;
+}
+.nav-item:hover {
+    box-shadow: black;
 }
 .btn-text  {
     margin: 20px;
@@ -336,6 +352,7 @@ font-size: 20px;
 .button-news {
     display: flex;
 }
+
 
 
 

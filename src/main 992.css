@@ -69,4 +69,12 @@ flex-direction: column;
         flex-direction: column;
     }
 
+    .navbar-nav .nav-link {
+        margin-top: 20px;
+        width: 200px;
+    }
+    .photo-index {
+        width: 100%;
+        height: 400px;
+    }
 }

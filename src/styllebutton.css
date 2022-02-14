@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2 );
+}
+.left-side {
+    border-right: grey solid 0.2px;
+    top: 50%;
+    padding-right: 10px
+}
+.right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+.details {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.details i {
+    font-size: 24px;
+    color: blue;
+    margin-bottom: 10px;
+}
+.topic {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.text-one {
+    font-size: 14px;
+    color: cadetblue;
+}
+.topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 10px;
+}
+.right-side p {
+    margin-bottom: 20px;
+}
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+
+
+}
+.input-box input,
+.input-box textarea {
+    width: 90%;
+    height: 100%;
+    border: none;
+    background: lavender;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.input-box textarea {
+    resize: none;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.message-box {
+    min-height: 110px;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 0;
+}
+.button input  {
+    color: white;
+    border: none;
+    background: blue;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.2s;
+
+}
+.button input:hover {
+    background: #77a0d2;
+}
+@media (max-width: 600px) {
+    .content {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+    .right-side {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .left-side {
+        border: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+    .details {
+        margin-right: 10px;
+    }
+}
