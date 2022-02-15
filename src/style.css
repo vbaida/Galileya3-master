@@ -40,7 +40,8 @@ body {
     font-family: Georgia, serif;
 }
 .head-title-img {
-    border-radius: 40%;
+    border-radius: 50%;
+    background: white;
 }
 .head-title-h1 {
     margin: 20px;
@@ -272,7 +273,6 @@ font-size: 20px;
     }
 .wrapper {
     display: grid;
-
     grid-template-rows: repeat(10, auto);
     grid-template-columns: repeat(3, 1fr);
 
@@ -283,7 +283,7 @@ font-size: 20px;
 .wrapper1 {
     display: grid;
     grid-template-rows: repeat(1, auto);
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .newlife {
