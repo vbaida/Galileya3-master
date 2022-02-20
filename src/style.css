@@ -118,19 +118,19 @@ ul {
     background-color: #e0e0e0;
 }
 
-.social-icons .social-icon-twitter::before {
-    background-image: url("...");
-}
-.social-icons .social-icon-fb::before {
-    background-image: url("...");
-}
+/*.social-icons .social-icon-twitter::before {*/
+/*    background-image: url("...");*/
+/*}*/
+/*.social-icons .social-icon-fb::before {*/
+/*    background-image: url("...");*/
+/*}*/
 
-.social-icons .social-icon-telegram::before {
-    background-image: url("...");
-}
-.social-icons .social-icon-youtube::before {
-    background-image: url("...");
-}
+/*.social-icons .social-icon-telegram::before {*/
+/*    background-image: url("...");*/
+/*}*/
+/*.social-icons .social-icon-youtube::before {*/
+/*    background-image: url("...");*/
+/*}*/
 .info {
       text-align: center;
     font-family: 'Fira Sans', sans-serif;
