@@ -41,13 +41,13 @@ function formCheck(e) {
     const isAllValid = allValid.reduce((acc, current) => {
         return acc && current;
     });
-
     if (!Boolean(Number(isAllValid))) {
-        alert("Заповніть правильно поля!!!");
+        alert("Заполните поля правильно!");
         return;
     }
     formSubmit();
 }
+
 async function formSubmit() {
     const data = serializeForm(form);
     const response = await sendData(data);

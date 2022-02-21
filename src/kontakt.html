@@ -144,20 +144,21 @@
         <div class="content">
             <div class="left-side">
 
-                <div class="details hone">
-                    <i class="fas fa-phone-alt"></i>
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
                     <div class="topic">Телефон</div>
                     <div class="text-one">0962784570 <br>Олег</div>
                 </div>
 
-                <div class="details emeil"> <i class="fas fa-envelope"></i>
+                <div class="details email">
+                    <i class="fas fa-envelope"></i>
                     <div class="topic">E-mail</div>
                     <div class="text-one">galilea-ua@ukr.net</div>
                 </div>
             </div>
             <div class="right-side">
                 <div class="topic-text">Відправте нам повідомлення</div>
-                <form action="send_mail.php" id="form" name="form" method="post">
+                <form action="send_mail.php" id="form"  method="post">
                     <div class="input-box">
                         <input type="text" placeholder="Введіть ім'я" id="name" name="name" data-reg="^[а-яА-ЯёЁa-zA-Z]">
                     </div>
@@ -170,11 +171,12 @@
                         <label for="phone">В форматі: +38000000000, 38000000000</label>
                     </div>
                     <div class="input-box message-box">
-                        <textarea placeholder="Повідомлення" required name="message"></textarea>
+                        <textarea placeholder="Повідомлення" name="message"></textarea>
+<!--                        <textarea placeholder="Повідомлення" required name="message"></textarea>-->
                     </div>
-                    <button class="button">
-                        <input type="submit" value="Відправити" id="button" name="button"/>
-                    </button>
+                    <div class="button">
+                        <input type="submit" id="button" value="Відправити" />
+                    </div>
                 </form>
             </div>
         </div>
