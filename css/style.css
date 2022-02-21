@@ -39,16 +39,20 @@ body {
     margin: 20px;
     text-align: center;
 }
-.head-title h1, h3 {
-    font-size: 28px;
-    font-family: Georgia, serif;
-}
+
 .head-title-img {
     border-radius: 50%;
     background: white;
 }
-.head-title-h1 {
-    margin: 20px;
+.head-title-one {
+
+    font-size: 70px;
+    font-family: Georgia, serif;
+}
+.head-title-two {
+    font-size: 30px;
+    font-family: Georgia, serif;
+
 }
 .navbar-text {
     font-size: 16px;

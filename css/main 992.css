@@ -17,13 +17,10 @@
     .head-title-img {
         width: 100px;
             }
-    .head-title-h1 {
-        margin: 0;
-        font-size: 16px;
+    .head-title-one {
+       font-size: 50px;
     }
-    h1 {
-        font-size: 20px;
-    }
+
     .icon-text {
         display: none;
     }
