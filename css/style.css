@@ -247,12 +247,8 @@ line-height: 24px;
     border-left: solid;
     width: 300px;
 }
-.row-border {
-    border-bottom: solid;
-    }
-.col-four {
-    border-right: solid;
-}
+
+
 .home-text p {
 font-size: 20px;
 }
